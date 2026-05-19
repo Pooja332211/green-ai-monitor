@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "explain_emissions",
+      "patterns": [
+        "what are emissions",
+        "explain emissions",
+        "what is carbon emission",
+        "tell me about emissions",
+        "emissions meaning"
+      ],
+      "responses": [
+        "Carbon emissions refer to the release of carbon dioxide (CO2) and other greenhouse gases into the atmosphere, primarily from human activities like burning fossil fuels, deforestation, and industrial processes. These gases trap heat in the atmosphere, leading to global warming and climate change."
+      ]
+    },
+    {
+      "tag": "why_emissions_bad",
+      "patterns": [
+        "why are emissions bad",
+        "why is carbon emission harmful",
+        "why does CO2 matter",
+        "why reduce emissions",
+        "why is climate change bad"
+      ],
+      "responses": [
+        "Carbon emissions contribute to the greenhouse effect, where gases like CO2 trap heat in the Earth's atmosphere. This causes global temperatures to rise, leading to extreme weather, sea-level rise, loss of biodiversity, and health issues for humans. Reducing emissions is crucial to mitigate these impacts and ensure a sustainable future."
+      ]
+    },
+    {
+      "tag": "reduce_co2_advice",
+      "patterns": [
+        "how to reduce CO2",
+        "advice on reducing emissions",
+        "tips to lower carbon footprint",
+        "ways to cut emissions",
+        "reduce carbon emissions"
+      ],
+      "responses": [
+        "To reduce CO2 emissions: 1) Use renewable energy sources like solar or wind. 2) Opt for public transportation, biking, or walking instead of driving. 3) Reduce meat consumption and choose plant-based foods. 4) Conserve energy at home by using LED bulbs and unplugging devices. 5) Plant trees and support reforestation efforts."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! I'm the Green AI Monitor chatbot. How can I help you with emissions, climate change, or reducing your carbon footprint?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Remember to take steps towards a greener future."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Can you rephrase your question about emissions or reducing CO2?"
+      ]
+    }
+  ]
+}
